@@ -1,0 +1,17 @@
+class StoreItem:
+    def __init__(self,name,price):
+
+          # Add: name, price
+        self.name = name
+        self.price = price
+    def display_prices(self):
+        print(f"Item: [{self.name}] - Price:$[{self.price}]")
+
+
+
+chips = StoreItem("Chips", 1.99) # Don't modify this line
+
+# TODO: Access the attributes of the chips object and display them
+print(chips.name)
+print(chips.price)
+
